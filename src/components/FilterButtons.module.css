@@ -1,0 +1,31 @@
+.filterBtnContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	margin: 2rem 0;
+	width: 70%;
+}
+
+.filterBtn {
+	width: 33.33%;
+	padding: 0.5rem;
+	background-color: var(--iris);
+	font-size: 1rem;
+	color: whitesmoke;
+	transform: 0.5s all;
+	box-shadow: 0.1rem 0.1rem 0.5rem var(--lavander-blue);
+	cursor: pointer;
+}
+
+.filterBtnActive {
+	background-color: var(--lavander-blue);
+	color: var(--ultramarine);
+}
+
+.filterBtn:hover {
+	transform: scale(0.8);
+	background-color: var(--ultramarine);
+	box-shadow: 0.1rem 0.1rem 0.5rem var(--lavander-blue);
+}
